@@ -1,0 +1,135 @@
+/* reset code start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+/* reset code end */
+
+/* ---------------------
+Header sec start
+------------------------*/
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #e5f9f5;
+  padding: 20px;
+}
+.profile-img {
+  height: 120px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 50px;
+  float: left;
+}
+.header-bio {
+  float: left;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #26939f;
+}
+.contact-link {
+  float: right;
+  padding: 30px;
+}
+.contact-link a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+.contact-link a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+/* ---------------------
+Header sec end
+------------------------*/
+.clear-div {
+  clear: both;
+}
+hr {
+  border: 3px solid black;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+
+/* ---------------------
+Personal sec start
+------------------------*/
+.content {
+  margin-bottom: 30px;
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.right-div {
+  width: 70%;
+  float: left;
+}
+/* ---------------------
+Personal sec end
+------------------------*/
+.common-hr {
+  border: 1px solid black;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* ---------------------
+Education sec start
+------------------------*/
+.edu-template-left {
+  width: 50%;
+  float: left;
+}
+.edu-template-right {
+  width: 50%;
+  float: left;
+}
+/* ---------------------
+Education sec end
+------------------------*/
+
+/* -------------------
+Refernce sec start
+-------------------- */
+.refernce-div img {
+  width: 50px;
+}
+
+/* -------------------
+Refernce sec end
+-------------------- */
+/* ---------------------
+footer sec start
+------------------------*/
+.bottom {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.bottom a,
+.bottom p {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+/* ---------------------
+footer sec end
+------------------------*/
